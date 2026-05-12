@@ -8,7 +8,6 @@
         body { margin: 0; background-color: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; }
         #container { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 1; }
         
-        /* Кнопка безпечного запуску камери */
         #start-btn {
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
             z-index: 2000; padding: 15px 30px; background: #e91e63; color: white; 
@@ -24,18 +23,18 @@
         "imports": {
             "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
             "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/",
-            "mindar-face-three": "https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-three.prod.js"
+            "mindar-face-three": "https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-face-three.prod.js"
         }
     }
     </script>
     
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./code.js"></script>
 </head>
 <body>
     <div id="ui">
         <strong>Виконав:</strong> Станіслав Добрун<br>
         <strong>Група:</strong> І-22<br>
-        <strong>Завдання:</strong> Власна маска "Кішка"
+        <strong>Завдання:</strong> Власна маска
     </div>
 
     <button id="start-btn">Увімкнути Face Mask</button>
